@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+background-color: #eee;
+}
+
+.caja-principal{
+background-color: #fff;
+border: solid 1px;
+font-family: 'Ubuntu', sans-serif;
+box-shadow: 10px 5px 5px #018001;
+border-radius: 10px;
+width: 350px;
+}
+.cabecera-de-caja{
+padding: 10px;
+border-bottom: solid 1px #018001;
+color: #018001;
+text-align: center;
+font-size: 28px;
+}
+.cuerpo-de-caja{
+padding: 10px;
+border-bottom: solid 1px #018001;
+}
+.texto-del-cuerpo{
+text-align: left;
+font-size: 18px;
+}
+.botones{
+display: flex;
+margin: 10px;
+justify-content: space-around;
+}
+.boton-aceptar{
+padding: 5px;
+background-color: #018001;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+text-decoration: none;
+}
+.boton-aceptar:hover{
+background-color: #F8EE1E;
+color: black;
+box-shadow: black 3px 3px 10px;
+}
+.boton-cancelar{
+padding: 5px;
+background-color: #3f729b;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+text-decoration: none;
+}
+.boton-cancelar:hover{
+background-color: black;
+color: #fff;
+box-shadow: #F8EE1E 3px 3px 10px;
+}
+.botones img{
+width: 15px;
+height: 15px;
+filter: invert();
+margin-right: 10px;
+}
