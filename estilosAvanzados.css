@@ -1,0 +1,92 @@
+body{
+    background-color: #eee;
+}
+
+/* esta es la solución del pepinillo */
+
+.boton-1{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid red;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.boton-1:hover{
+    transform: scaleX(1.05);
+    background-color: #F8EE1E;
+    transition-delay: 0.5;
+}
+
+.boton-2{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid green;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    transition-delay: 0.3s 0.5s;
+}
+
+.boton-2:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.boton-3{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid blue;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    transition-delay: 0.3s 0.5s;
+}
+
+.boton-3:hover{
+    background-color: #F8EE1E;
+}
+
+/* Esta es la solución del profesor */ 
+.box{
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px 15px;
+    width: 200px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.red{
+border-left: solid 2px red;
+}
+
+.red:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.green{
+    border-left: solid 2px green;
+}
+
+.green:hover{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blue{
+    border-left: solid 2px blue;
+}
+
+.blue:hover{
+    background-color: #F8EE1E;
+}
