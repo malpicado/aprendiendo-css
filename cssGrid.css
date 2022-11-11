@@ -1,0 +1,30 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #eee;
+    margin: 0;
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(3, 50px);
+    grid-gap: 5px;
+    justify-content: start;
+    align-content: space-between;
+
+}
+.red{
+    background-color: red;
+}
+
+.header{
+    grid-column: col-inicio / col-fin 3;
+    grid-row: row-inicio / row-fin 3;
+}
+
